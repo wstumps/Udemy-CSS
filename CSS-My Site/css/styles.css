@@ -9,6 +9,12 @@ h1 {
     font-family: 'Dancing Script', cursive;
 }
 
+h2{
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
 p {
     font-family: 'Playfair Display', serif;
 }
@@ -20,15 +26,9 @@ p {
 }
 
 .middle-container {
-    background-color: #8db596;
-    height: 200px;
-    width: 200px;
 }
 
 .bottom-container {
-    background-color: #92817a;
-    height: 200px;
-    width: 200px;
 }
 
 .top-cloud {
@@ -41,4 +41,13 @@ p {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.selfie {
+    border-radius: 100%;
+    border-style: solid;
+    border-style: black;
+    border-width: 1px;
+    height: 175px;
+    width: 150px;
 }
